@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    int temp;
+
+    cin >> temp;
+
+    if(temp>25)
+        cout << "Hot";
+    else
+        cout << "Cold";
+}
